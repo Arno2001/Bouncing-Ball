@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Bouncing Balls</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="ballControlSection">
+      <div class="contolerBox">
+        <h2 id="ballSizeText">Ball Size</h2>
+        <button id="minusBtn">-</button>
+        <span id="ballSize">0</span>
+        <button id="plusBtn">+</button>
+      </div>
+      <!-- <div id="horizontal">
+        <h2>Horizontal Bouncing</h2>
+        <button id="horizontalBtn">press to active</button>
+      </div> -->
+      <div class="contolerBox">
+        <h2 id="ballColorText">Ball Color</h2>
+        <input
+          type="color"
+          name="ballColor"
+          id="ballColorInput"
+          value="#000000"
+        />
+      </div>
+    </div>
+    <div id="canvasSection">
+      <div class="planets">
+        <div class="gravityPlanets">
+          <h3>Mercury</h3>
+          <p>3.7</p>
+          <img src="images/mercury.png" alt="mercury" id="mercury" class="planet">
+        </div>
+        <div class="gravityPlanets">
+          <h3>Venus</h3>
+          <p>8.87</p>
+          <img src="images/venus.png" alt="venus" class="planet">
+        </div>
+        <div class="gravityPlanets">
+          <h3>Earth</h3>
+          <p>9.81</p>
+          <img src="images/earth.png" alt="earth" class="planet">
+        </div>
+        <div class="gravityPlanets">
+          <h3>Mars</h3>
+          <p>3.71</p>
+          <img src="images/mars.png" alt="mars" class="planet">
+        </div>
+        <div class="gravityPlanets">
+          <h3>Jupiter</h3>
+          <p>24.79</p>
+          <img src="images/jupiter.png" alt="jupiter" class="planet">
+        </div>
+      </div>
+      <canvas id="bouncingBallCanvas" width="1000" height="600"></canvas>
+      <div class="planets">
+        <div class="gravityPlanets">
+          <h3>Saturn</h3>
+          <p>10.44</p>
+          <img src="images/saturn.png" alt="saturn" class="planet">
+        </div>
+        <div class="gravityPlanets">
+          <h3>Uranus</h3>
+          <p>8.87</p>
+          <img src="images/uranus.png" alt="uranus" class="planet">
+        </div>
+        <div class="gravityPlanets">
+          <h3>Neptune</h3>
+          <p>11.15</p>
+          <img src="images/neptune.png" alt="neptune" class="planet">
+        </div>
+        <div class="gravityPlanets">
+          <h3>Moon</h3>
+          <p>1.62</p>
+          <img src="images/moon.png" alt="moon" class="planet">
+        </div>
+        <div class="gravityPlanets">
+          <h3>Sun</h3>
+          <p>274</p>
+          <img src="images/sun.png" alt="sun" class="planet">
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,134 @@
+* {
+  font-family: fantasy;
+}
+
+body {
+  margin: 0;
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-size: 100% 100vh;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(90deg, #070070, #300045);
+}
+
+#canvasSection, #planets {
+  display: flex;
+  flex-direction: row;
+}
+
+canvas {
+  border: 5px transparent;
+  background-color: white;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: 50%;
+}
+
+#ballControlSection {
+  margin: 10px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  gap: 15vw;
+}
+
+#horizontalBtn {
+  width: 100%;
+  border: none;
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 10px 0;
+  font-family: cursive;
+  background-color: white;
+}
+
+.contolerBox {
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 5px;
+}
+
+#ballColorInput {
+  width: 60px;
+  height: 60px;
+  border: none;
+  background-color: transparent;
+}
+
+#ballColorInput::-webkit-color-swatch {
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#minusBtn,
+#plusBtn {
+  background-color: white;
+  font-size: xx-large;
+  width: 40px;
+  height: 40px;
+}
+
+#ballSize {
+  padding: 0 20px;
+  font-size: 40px;
+}
+
+.gravityPlanets {
+  position: relative;
+  margin: 20px 10px;
+  width: 90px;
+  height: 90px;
+}
+
+.gravityPlanets button {
+  width: 90px;
+  height: 90px;
+  background-color: transparent;
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  color: transparent;
+}
+
+.gravityPlanets p{
+  display: none;
+}
+
+img {
+  width: 100%;
+}
+
+h3{
+  width: 100%;
+  height: 100%;
+  top: -20px;
+  cursor: pointer;
+  font-weight: 900;
+  position: absolute;
+  text-transform: uppercase;
+  animation: circleAnimation 10s linear infinite;
+}
+
+h3 span {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform-origin: 0 46px;
+}
+
+@keyframes circleAnimation {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
