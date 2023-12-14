@@ -37,6 +37,16 @@ button {
   gap: 15vw;
 }
 
+#horizontalBtn {
+  width: 100%;
+  border: none;
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 10px 0;
+  font-family: cursive;
+  background-color: white;
+}
+
 .contolerBox {
   text-align: center;
 }
@@ -72,7 +82,7 @@ h2 {
 
 .gravityPlanets {
   position: relative;
-  margin: 30px 20px;
+  margin: 20px 10px;
   width: 90px;
   height: 90px;
 }
@@ -109,8 +119,8 @@ h3{
 h3 span {
   position: absolute;
   left: 50%;
-  top: -17px;
-  transform-origin: 0 63px;
+  top: 0;
+  transform-origin: 0 46px;
 }
 
 @keyframes circleAnimation {
