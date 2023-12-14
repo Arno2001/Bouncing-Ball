@@ -16,7 +16,7 @@ To run the application, follow these steps:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/bouncing-ballz.git
+    git clone https://github.com/Arno2001/Bouncing-Ball
     ```
 
 2. Open the direction `src` and open `index.html` file in your web browser.
