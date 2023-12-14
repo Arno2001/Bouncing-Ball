@@ -36,10 +36,11 @@ The code is organized into the following main files:
 - `index.html`: The main HTML file containing the canvas element and linking to the necessary scripts.
 - `style.css`: CSS file for basic styling.
 - `app.ts`: TypeScript file containing the main application logic and defining the physics simulation   for the bouncing circles.
+- `app.js`: A JavaScript file compiled from TypeScript.
 
 ## Realistic Physics Simulation
 
-The realistic physics simulation is achieved through a simple game loop concept. The `app.ts` file contains a `tick` method that updates the position and velocity of each circle on each frame, ensuring smooth motion regardless of the frame rate. Gravity is applied to simulate Earth-like conditions, and a dampening effect is added to the bouncing motion.
+The realistic physics simulation is achieved through a simple game loop concept. The `app.ts` file contains a `tick` method that updates the position and velocity of each circle on each frame, ensuring smooth motion regardless of the frame rate. Gravity is applied to simulate by default Earth-like conditions, and a dampening effect is added to the bouncing motion.
 
 ## Code Quality
 
