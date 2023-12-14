@@ -51,7 +51,7 @@ canvas.addEventListener("click", function (e) {
     var y = e.clientY - canvas.getBoundingClientRect().top;
     // Default size if not specified
     if (size === 0) {
-        size = 50;
+        size = 30;
     }
     // Create a new ball and add it to the array
     var ball = new Ball(x, y, size, gravity, color.value);
@@ -111,6 +111,6 @@ var texts = document.querySelectorAll("h3");
 texts.forEach(function (text) {
     text.innerHTML = text.innerHTML
         .split("")
-        .map(function (char, i) { return "<span style=\"transform:rotate(".concat(i * 45, "deg)\">").concat(char, "</span>"); })
+        .map(function (char, i) { return "<span style=\"transform:rotate(".concat(i * 50, "deg)\">").concat(char, "</span>"); })
         .join("");
 });

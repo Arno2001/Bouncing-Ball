@@ -76,7 +76,7 @@ canvas.addEventListener("click", (e) => {
 
   // Default size if not specified
   if (size === 0) {
-    size = 50;
+    size = 30;
   }
 
   // Create a new ball and add it to the array
@@ -153,7 +153,7 @@ texts.forEach((text: Element) => {
   text.innerHTML = text.innerHTML
     .split("")
     .map(
-      (char, i) => `<span style="transform:rotate(${i * 45}deg)">${char}</span>`
+      (char, i) => `<span style="transform:rotate(${i * 50}deg)">${char}</span>`
     )
     .join("");
 });
