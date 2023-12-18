@@ -1,0 +1,12 @@
+{
+  "name": "bouncing-ballz",
+  "version": "1.0.0",
+  "description": "Bouncing Ballz - Micro Physics Simulator",
+  "main": "app.js",
+  "scripts": {
+    "run": "tsc src/app.ts"
+  },
+  "keywords": [],
+  "author": "Arno Ghazaryan",
+  "license": "ISC"
+}

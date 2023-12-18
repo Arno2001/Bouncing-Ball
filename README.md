@@ -15,11 +15,19 @@ To run the application, follow these steps:
 
 1. Clone the repository:
 
-    ```bash
+    ```bash or other terminal
     git clone https://github.com/Arno2001/Bouncing-Ball
     ```
+2. Compile TypeScript to JavaScript
 
-2. Open the direction `src` and open `index.html` file in your web browser.
+    ``` bash or other terminal
+    npm run-script run
+    ```
+3. Open `index.html` file in your web browser with this command.
+
+    ``` bash or other terminal
+    open src/index.html 
+    ```
 
 ## Usage
 
