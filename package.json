@@ -4,7 +4,7 @@
   "description": "Bouncing Ballz - Micro Physics Simulator",
   "main": "app.js",
   "scripts": {
-    "run": "tsc src/app.ts"
+    "run": "tsc src/app.ts && open src/index.html"
   },
   "keywords": [],
   "author": "Arno Ghazaryan",
